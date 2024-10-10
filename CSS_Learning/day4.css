@@ -1,0 +1,11 @@
+
+ /* selector {Property: Value} */
+ h2 { color: rgba(169, 35, 95, 0.484); }
+ h3 { color: #459414;}
+
+/* hsl(hue,saturation,lightness) */
+h4{ color: hsl(240, 30, 45);}
+h1{
+    background-color: dimgrey;
+    color: goldenrod;
+}
