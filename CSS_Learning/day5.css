@@ -1,0 +1,35 @@
+/* section
+{
+    width: 500px;
+    height: 500px;
+    background: teal;
+}
+div {
+    width: 20%;
+    height: 20%;
+    background-color: bisque;
+}
+html{
+    font-size: 4em;
+} */
+ h1
+ {
+    font-family:monospace;
+    font-size: 20px;
+    text-transform:capitalize;
+    text-align: center;
+    text-decoration: overline;
+ }
+ p
+ {
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    cursor: copy;
+    font-weight: bolder;
+ }
+ a{
+    text-decoration: none;
+    color: red;
+
+ }
