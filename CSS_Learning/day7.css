@@ -1,0 +1,38 @@
+/* SELECTORS */
+.one{
+    color: goldenrod;
+}
+.two{
+    font-size: 4rem;
+}
+#one{
+    color: darkgreen;
+}
+#two{
+    font-size: 4rem;
+}
+*{
+    border: 2px solid teal  ;
+}
+div.text{
+    color: blue;
+}
+div p{
+    color: brown;
+    font-size: 2rem;
+}
+a[href="one"]{
+    color: orange;
+}
+.link:link{
+    color: red;
+}
+.visited:visited{
+    color: orange;
+}
+.hover:hover{
+    color: deeppink;
+}
+.active:active{
+    color: rgb(146, 186, 64);
+}
