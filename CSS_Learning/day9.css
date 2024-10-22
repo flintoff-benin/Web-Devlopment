@@ -1,0 +1,20 @@
+/* ICONS */
+.fa-solid{
+    color: rgb(172, 43, 99);
+}
+.fa-wifi{
+    color: chocolate;
+}
+/* SHADOWS */
+div{
+    width: 200px;
+    height: 200px;
+    background-color: darkgoldenrod;
+    box-shadow: 10px 10px 30px teal;
+}
+/* X,y,blurness ,color */
+h1{
+    font-size: 4rem;
+    text-shadow: 4px 5px 7px rgb(122, 37, 59);
+}
+/* INHERITANCE */
