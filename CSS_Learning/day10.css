@@ -1,0 +1,58 @@
+/* POSITIONS */
+.container{
+    background: grey;
+    height: 500px;
+    width: 90%;
+}
+.d{
+    height: 100px;
+    width: 100px;
+}
+.one{
+    background: blue;
+    position: relative;
+    left: 500px;
+    /* bottom: 400px; */
+}
+.two{
+    background: peachpuff;
+    position: absolute;
+    bottom: 400px;
+    left: 800px;
+}
+.three{
+    background: black;
+    position: sticky;
+    top: 200px;
+}
+.four{
+    background: tomato;
+    position: fixed;
+} 
+*{
+    margin: 90;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: violet;
+}
+.hello{
+    border: 2px solid red;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    /* FLEXBOX  */
+    display: flex;
+    /* flex-direction:column; */
+    justify-content: space-around;
+    /* justify-content: ; */
+    align-items: center;
+}
+.hello .child{
+    width: 60px;
+    height: 60px;
+    background: rgb(157, 20, 20);
+    margin: 10px;
+    text-align: center;
+}
