@@ -1,0 +1,30 @@
+/* GRID */
+*{
+    margin: 0;
+}
+.container{
+    background:rgb(34, 34, 34);
+    padding: 20px;
+    height: 100vh;
+    /* GRID STUFF HERE */
+    display: grid;
+    grid-template-columns:[start] 100px 100px [end] 100px ;
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 10px;
+}
+header{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* grid-column: 1/4; */
+    grid-column: start/end;
+}
+.s{
+    padding: 20px;
+    background: rgb(84, 84, 84);
+    text-align: center;
+    color: #fff;
+    border-style:solid;
+    border-radius: 15%; 
+    margin: 10px;
+
+}
