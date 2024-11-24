@@ -1,0 +1,73 @@
+/* CALC() */
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+/* .s{
+    background: crimson;
+    width: calc(200px + 200px);
+    height: calc(200px - 100px); 
+    margin: calc(20px * 2);
+    border-radius:  15px calc(15px /10) 4px 2px;
+    padding: calc(200px / 10);
+ } */
+ /* MIX BLEND MODE */
+
+ /* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ .container{
+    background: blueviolet ;
+ }
+ .container .img{
+   background-image: url("https://images.unsplash.com/photo-1457269449834-928af64c684d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"), url("https://images.unsplash.com/photo-1732103377360-be02613c9df0?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),linear-gradient(steelblue,firebrick);
+   background-repeat: no-repeat;
+   background-position: center  ; 
+   background-size: cover;
+   height: 100vh;
+   /* mix-blend-mode: multiply;
+   mix-blend-mode: darken;
+   mix-blend-mode: lighten;
+   mix-blend-mode: color-dodge;
+   mix-blend-mode: color-burn;
+   mix-blend-mode: difference;
+   mix-blend-mode: exclusion;
+   mix-blend-mode: saturation;
+   mix-blend-mode: luminosity; */
+ /*  background-blend-mode: multiply,screen;
+} */
+/* is() */
+/* section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6,
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6,
+aside h1,
+aside h2,
+aside h3,
+aside h4,
+aside h5,
+aside h6,
+nav h1,
+nav h2,
+nav h3,
+nav h4,
+nav h5,
+nav h6{
+   color: blueviolet;
+} */
+:is(section,article,aside,nav) :is(h1,h2,h3,h4,h5,h6)
+{
+   color: burlywood;
+}
