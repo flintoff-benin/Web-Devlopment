@@ -1,0 +1,24 @@
+/* BEFORE AND AFTER */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+p::before {
+    content: "THIS IS BEFORE CONTENT";
+    color: chocolate;
+    font-size: 2rem;
+    background: greenyellow;
+    font-weight: 200;
+}
+
+p::after {
+    content: "THIS IS AFTER CONTENT";
+    color: blue;
+    font-size: 2rem;
+    background: grey;
+    font-weight: 300;
+}
