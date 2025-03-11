@@ -1,0 +1,189 @@
+ * {
+    margin: 0%;
+    padding: 0%;
+    /* background-color: rgb(154, 136, 136); */
+ }
+body {
+    background-color: darkgrey;
+}
+ nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(142, 59, 23, 0.648);
+    background-blend-mode: difference;
+    /* margin: 10px; */
+ }
+li {
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 10px;
+}
+
+ .logo {
+    font-size: 24px;
+    font-weight: bold;
+ }
+
+.hero {
+    /* background-color: black; */
+    height: 100vh;
+    background-image: url(shawarma1.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+ }
+.hr1 {
+    top: 12rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    /* display: inline; */
+    /* background-color: rgba(197, 127, 41, 0.557); */
+}
+.hr2 {
+    margin-top: 70vh;
+    font-size: 3rem;
+    font-weight: bold;
+    /* display: contents; */
+    /* background-color: rgba(197, 127, 41, 0.557); */
+}
+.hr3 , .but {
+    padding: 10px 25px;
+    margin-top: 1rem;
+    cursor: pointer;
+    /* color: rgb(146, 87, 15); */
+    background-color: coral;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px;
+}
+ .stry {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    font-weight: 300;
+    margin-top: 20px;
+ }
+.stry img{
+    /* border: 50px; */
+    /* border-color: chocolate; */
+    border-radius: 25px;
+    margin: 30px;
+    /* padding-left: 10cap; */
+ }
+ .stry h1{
+    font-size: 3rem;
+    padding-left: 5em;
+    font-weight: bold;
+ }
+ .stry p{
+    padding: 20px;
+    /* margin: 40px; */
+    text-align: justify;
+    padding-right: 40px;
+    font-size: 25px;
+ }
+ .but {
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rex;
+ }
+ .menu h1 {
+   font-size: 40px;
+   padding-left: 50px;
+ }
+ /* .line{
+   display: inline;
+   width: 100px;
+   height: 5px;
+   background: #a01515;
+   transform: translateX(-120px);
+ } */
+ .pro {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   /* gap: 30px; */
+   justify-content: space-around;
+   margin-top: 30px
+ } 
+ .pro1_img {
+   height: 100px; 
+   width: 100px; 
+   background-image: url('burger.jpg'); 
+   background-position: center; 
+   background-size: cover; 
+   border-radius: 10px; 
+   margin-bottom: 1rem; 
+ }
+ .pro1 , .pro2 , .pro3 {
+   border: 4px solid rgb(78, 26, 7);
+   padding: 0 20px;
+   height: 400px;
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around; 
+    align-items: center;
+   border-radius: 5px;
+   position: relative;
+   margin-bottom: 4rem;
+ }
+ .pro2_img {
+   height: 100px; 
+   width: 100px; 
+   background-image: url('juice.jpg'); 
+   background-position: center; 
+   background-size: cover; 
+   border-radius: 10px; 
+   margin-bottom: 1rem; 
+ }
+ .pro3_img {
+   height: 100px; 
+   width: 100px; 
+   background-image: url('pizza.jpg'); 
+   background-position: center; 
+   background-size: cover; 
+   border-radius: 10px; 
+   margin-bottom: 1rem; 
+ }
+ hr {
+   margin-bottom: 20px;
+   border-color: #ff2617;
+   width: 500px;
+   margin: 0 auto;
+ }
+ .foot {
+   /* height: 50vh; */
+   display: flex;
+   /* flex-wrap: wrap; */
+   align-items: center;
+   justify-content: space-between;
+   /* color: #eb1c0a; */
+   text-align: center;
+   font-family: sans-serif;
+   padding: 50px 50px;
+   /* gap: 30px; */
+ }
+ .foot h1 {
+   margin-bottom: 20px;
+   text-decoration: underline;
+   font-size: 33px;
+ }
+ .foot p {
+   padding: 20px;
+   font-size: 17px;
+ }
+ .para {
+   /* color: white; */
+   font-family: sans-serif;
+   text-align: center;
+   margin-top: 20px;
+ }
